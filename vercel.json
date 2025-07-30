@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {"src": "app.py", "use": "@vercel/python"},
+    {"src": "core/*.ts", "use": "@vercel/node"}
+  ],
+  "routes": [
+    {"src": "/wallet/connect", "dest": "app.py"},
+    {"src": "/dashboard", "dest": "core/dashboard.ts"},
+    {"src": "/(.*)", "dest": "app.py"}
+  ]
+}

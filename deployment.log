@@ -1,0 +1,20 @@
+Vercel CLI 44.6.4
+Retrieving project…
+Deploying iamtemam-gmailcoms-projects/newland
+Uploading [--------------------] (0.0B/86B)
+Uploading [====================] (86.0B/86B)
+Inspect: https://vercel.com/iamtemam-gmailcoms-projects/newland/Fc7QZzFoLjtv56JbFJu2uctbmTke [5s]
+Production: https://newland-780lghbwo-iamtemam-gmailcoms-projects.vercel.app [5s]
+https://newland-780lghbwo-iamtemam-gmailcoms-projects.vercel.appQueued
+2025-07-30T15:24:18.409Z  Running build in Washington, D.C., USA (East) – iad1
+2025-07-30T15:24:18.410Z  Build machine configuration: 2 cores, 8 GB
+2025-07-30T15:24:18.424Z  Retrieving list of deployment files...
+2025-07-30T15:24:18.427Z  Skipping build cache, deployment was triggered without cache.
+2025-07-30T15:24:18.782Z  Downloading 780 deployment files...
+2025-07-30T15:24:25.202Z  Running "vercel build"
+2025-07-30T15:24:25.703Z  Vercel CLI 44.5.0
+2025-07-30T15:24:25.960Z  WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+2025-07-30T15:24:26.026Z  Installing required dependencies...
+2025-07-30T15:24:30.906Z  Build Completed in /vercel/output [5s]
+2025-07-30T15:24:30.991Z  Deploying outputs...
+Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
