@@ -1,0 +1,10 @@
+name: Deploy to Akash
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: docker build -t ghcr.io/temamab/newland:latest .
+      - run: echo ${{ secrets.AKASH_KEY }} | docker login ghcr.io -u USERNAME --password-stdin
+      - run: docker push ghcr.io/temamab/newland:latest

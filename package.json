@@ -1,0 +1,10 @@
+{
+  "name": "newland",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@eigenphi/mev-shield": "^2.4.0",
+    "hardhat": "^2.12.0"
+  }
+}
